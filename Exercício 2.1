@@ -1,0 +1,69 @@
+1-) Tempo de resposta:
+
+http://www.profissionaldeecommerce.com.br/2-segundos-de-carregamento-dos-sites/
+
+A Akamai, juntamente com a Forrester Consulting fez uma pesquisa com 1.048 consumidores on-line e obteve os seguintes resultados:
+ 
+ 47% dos consumidores esperam que a página carregue em 2 segundos ou menos.
+ 40% dos consumidores não irão esperar mais do que 3 segundos pelo carregamento de uma página. Depois disso eles irão abandonar o site.
+ 52% dos consumidores afirmam que a velocidade está diretamente associada com a fidelidade a um determinado site.
+
+2-) Responsividade:
+
+https://tableless.com.br/design-responsivo-foco-no-ser-humano/
+
+Foco do design responsivo deve ir muito além do dispositivo. 
+Precisamos desenvolver pensando no ser humano.
+
+Essas comparações podem parecer um pouco absurdas, mas mostram o quanto o software sempre esteve mais relacionado com a máquina do que com o 
+usuário. Enquanto tratarmos o usuário como um operador de um sistema burocrático, teremos que escrever enormes documentações sobre como 
+operar esse sistema, que deve ser mais intuitivo e menos complicado como eram há 20 anos atrás. E isso é o nosso dever. Transformar a 
+experiência do usuário em nossas páginas o foco principal do desenvolvimento web.
+
+3-) Latência:
+
+https://rede100fio.wordpress.com/2010/01/02/medindo-a-taxa-de-
+
+transferencia-throughput-instabilidade-jitter-e-perda-de-pacotes-com-o-iperf/
+
+O Iperf é um software cliente/servidor adequado para medições ativas. 
+Além das medições, esse software pode ser usado com um gerador simples de carga na rede, quando não há preocupação com o perfil do tráfego que 
+está sendo gerado. Também com Iperf é possível medir o Jitter (variação do atraso) e a perda. O Iperf é capaz de usar tanto o protocolo UDP, 
+quanto TCP e pode lidar com múltiplas conexões simultâneas.
+
+O link de rede é delimitado por duas máquinas com Iperf rodando.
+
+A qualidade de um link pode ser verificado com as seguintes medições:
+
+– Latência (ou RTT): O tempo de resposta, pode ser medido com o comando ping.
+– Jitter (variação de latência): Pode ser medido com testes usando o protocolo UDP.
+– Datagram loss (Perda de datagrama): Pode ser medido com testes usando o protocolo UDP.
+
+A largura de banda é medida através de testes TCP.
+
+4-) Throughput:
+
+http://brainwork.com.br/2010/06/21/testando-a-rede-com-o-iperf-gerador-de-trfego/
+
+Testando o throughput da rede com o Iperf (gerador de tráfego)
+
+O Iperf é um software livre, do tipo client/server desenvolvido pelo National Laboratory for Applied Network Research (NLANR). Com ele 
+podemos testar/medir o throughput da rede, e é claro, também podemos usá-lo como ferramenta de apoio para outros testes, como por exemplo 
+saber se o controle de banda na rede esta realmente sendo executado 
+
+Para usar o Iperf basta iniciá-lo como server em um PC, e como client noutro. O client passará a enviar tráfego TCP para o servidor por 10 
+segundos, e em seguida mostrará a quantidade dados transferida (MBytes) e a velocidade atingida (Mbits/s).
+
+5-) Carga:
+
+https://www.tiespecialistas.com.br/2015/11/tipos-de-teste-de-desempenho/Teste de carga 
+
+Conforme Bastos et al. (2007, p.76), o teste de carga é usado para validar e avaliar a aceitabilidade dos limites operacionais de um 
+sistema de acordo com cargas de trabalho variáveis, ao passo que o sistema em teste permanece constante. Em geral, as medições são tomadas 
+com base na taxa de transferência de dados da carga de trabalho e no tempo de resposta da transição alinhado. Este tipo de teste visa 
+avaliar os limites operacionais de um sistema mediante cargas de trabalho variáveis. Há casos em que o teste de carga mantém a carga de 
+trabalho, mas varia a configuração do sistema. As medições baseiam-se normalmente na taxa de transferência de dados da carga de trabalho e no 
+tempo de resposta da transação. A carga de trabalho é alterada de modo a simular variações entre as cargas média e máxima ocorridas em 
+condições operacionais normais. (RUP, 2001).
+
+6-) Sensibilidade à carga / degradação:

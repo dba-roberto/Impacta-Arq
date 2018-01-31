@@ -1,0 +1,7 @@
+<diagram program="umletino" version="14.2"><zoom_level>10</zoom_level><element><id>UMLDeployment</id><coordinates><x>90</x><y>40</y><w>250</w><h>200</h></coordinates><panel_attributes>&lt;&lt;Computador Servidor&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLDeployment</id><coordinates><x>90</x><y>320</y><w>250</w><h>200</h></coordinates><panel_attributes>&lt;&lt;Computador cliente&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>140</x><y>380</y><w>150</w><h>80</h></coordinates><panel_attributes>symbol=artifact
+
+SaudacaoClient</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>130</x><y>100</y><w>160</w><h>80</h></coordinates><panel_attributes>symbol=artifact
+
+SaudacaoServer</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>170</y><w>60</w><h>230</h></coordinates><panel_attributes>socket</panel_attributes><additional_attributes>10;10;10;210</additional_attributes></element></diagram>
